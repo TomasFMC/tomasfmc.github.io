@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <title>Curriculum Vitae</title>
+    <link href="estilo.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae de Leandro" />
+</head>
+<body>
+
+
+<header class="contenedor" id="header">
+    <nav>
+        <ul>
+            <li><a href="index.html" class="navegacion">Inicio</a></li>
+            <li><a href="CV.html" class="navegacion">CV</a></li>
+            <li><a href="portfolio.html" class="navegacion">Portfolio</a></li>
+            <li><a href="contacto.html" class="navegacion">Contacto</a></li>
+        </ul>
+        <img src="imagenes\modonocturno.png" id="modoDiaNoche">
+    </nav>
+</header>
+
+<div id="infoContacto" class="contenedor">
+    <h2>Información de Contacto</h2>
+    <ul>
+        <li>Teléfono: (442) 417-0264</li>
+        <li>E-mail: leandro.castillo@mail.com</li>
+        <li>Redes sociales:</li>
+    </ul>
+    <nav> 
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"><img src="imagenes\instagram.png"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"><img src="imagenes\facebook.png"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank"><img src="imagenes\twitter.png"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="imagenes\linkedin.png"></a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div id="emailContacto" class="contenedor">
+    <h2>Enviar E-mail</h2>
+        <p>Recibirás la respuesta en breve en tu casilla de correos</p>
+        <form>
+            <div>
+                <label for="nombreApellido">Nombre y apellido:</label>
+                <input type="text" id="nombreApellido" name="Nombre y apellido">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="Email">
+                
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            </div>
+            <button type="submit" class="boton" id="botonEnviar">Enviar</button>
+        </form>
+</div>
+
+
+<footer class="contenedor" id="footer">
+    <p> Leandro Castillo - 2023  ® </p>
+</footer>
+
+<script src="contacto.js"></script>
+</body>
+</html>
